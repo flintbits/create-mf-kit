@@ -10,7 +10,7 @@ Inspired by tools like `create-react-app` and `create-vite`, but built specifica
 
 ---
 
-## 🛠️ What will it do?
+## What will it do?
 
 - Scaffold a full MFE-ready project:
   - `container` (host shell)
