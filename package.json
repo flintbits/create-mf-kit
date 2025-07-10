@@ -1,0 +1,23 @@
+{
+    "name": "create-mf-kit",
+    "version": "0.1.0",
+    "description": "CLI to scaffold Micro Frontend apps using Module Fedderation",
+    "bin": {
+        "create-mf-kit": "bin/index.js"
+    },
+    "keywords": [
+        "cli",
+        "mfe",
+        "microfrontend",
+        "webpack",
+        "module-federation"
+    ],
+    "author": "Prathvin Pinto",
+    "license": "MIT",
+    "type": "module",
+    "dependencies": {
+        "chalk": "^5.4.1",
+        "fs-extra": "^11.3.0",
+        "prompts": "^2.4.2"
+    }
+}

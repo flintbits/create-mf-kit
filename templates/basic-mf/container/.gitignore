@@ -1,0 +1,38 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+.cache/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# dotenv
+.env
+.env.local
+.env.*.local
+
+# Output folders (optional, if built)
+build/
+out/
+tmp/
+
+# Lock files from templates (optional, if you copy projects in)
+templates/**/node_modules/
+templates/**/dist/
+templates/**/package-lock.json
+templates/**/yarn.lock
+templates/**/pnpm-lock.yaml
+
+# CLI logs or test outputs (if any)
+*.log
+
+# CLI local dev testing folder (if you generate to /test-project etc.)
+test-project/
