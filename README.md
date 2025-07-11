@@ -1,29 +1,30 @@
-# create-mfe-kit (WIP)
+# Create MFE kit (WIP)
 
-A CLI to scaffold Micro Frontend (MFE) architectures using Webpack Module Federation, React, and modern tooling.
-
----
-
-## What is this?
-
-**`create-mfe-kit`** is a developer-friendly CLI tool that sets up a plug-and-play Micro Frontend architecture in seconds.
+**`create-mf-kit`** is a developer-friendly CLI tool that sets up a plug-and-play Micro Frontend architecture in seconds.
 
 Inspired by tools like `create-react-app` and `create-vite`, but built specifically for MFE use cases.
 
----
+# CLI Usage
 
-## What will it do?
+### Create a new MFE project.
 
-- Scaffold a full MFE-ready project:
-  - `container` (host shell)
-  - `app1`, `app2`, etc. (remote MFEs)
-- Include preconfigured:
-  - Webpack 5 + Module Federation
-  - React + React Router
-  - Optional Redux or Zustand for shared state
-  - TypeScript support (optional)
-  - Tailwind CSS (optional)
-- Simple commands like:
-  ```bash
-  npm create mf-kit@latest
-  ```
+```bash
+npm create mfe-kit@latest
+```
+
+### Add a new remote app inside MFE.
+
+```bash
+npx create-mfe-kit add *app name*
+```
+
+# Features
+
+- Zero-config microfrontend setup.
+- Webpack Module Federation pre-configured.
+- Easily add new remote apps via CLI.
+
+# License
+
+This project is licensed under the [MIT License](./LICENSE).  
+© 2025 [Prathvin Pinto](https://github.com/prathvinpinto)

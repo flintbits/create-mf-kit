@@ -6,8 +6,14 @@ module.exports = {
   entry: "./index.jsx",
   mode: "development",
   devServer: {
-    port: 3001,
+    port: 3000,
+    hot: false,
+    liveReload: true,
     historyApiFallback: true,
+    static: path.join(__dirname, "public"),
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+    },
   },
   output: {
     publicPath: "auto",
@@ -30,10 +36,9 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: "app1",
-      filename: "remoteEntry.js",
-      exposes: {
-        "./App": "./src/App",
+      name: "container",
+      remotes: {
+        app1: "app1@http://localhost:3001/remoteEntry.js",
       },
       shared: {
         react: {
