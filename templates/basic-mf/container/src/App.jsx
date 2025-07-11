@@ -42,7 +42,7 @@ const App = () => {
           <li>
             Open a terminal and run:
             <pre>
-              <code>npx create-mf-kit add</code>
+              <code>npx create-mf-kit add *app name*</code>
             </pre>
           </li>
           <li>

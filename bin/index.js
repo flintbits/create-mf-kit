@@ -77,7 +77,10 @@ async function createNewRemoteApp(appName) {
 
   const spinner = ora(`Creating new remote app ${appName}`).start();
   const targetDir = path.resolve(process.cwd(), appName);
-  const templateAppDir = path.resolve(__dirname, "../templates/basic-mf/app1");
+  const templateAppDir = path.resolve(
+    __dirname,
+    "../templates/app-template/app1"
+  );
 
   try {
     //copy the existing app1
