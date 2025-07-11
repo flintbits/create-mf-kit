@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.controls {
+  text-align: center;
+}
+
+.controls h2 {
+  margin-bottom: 1rem;
+}
+
+button {
+  margin: 0 0.5rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #222;
+  border-color: #666;
+}
+
+.display {
+  text-align: center;
+}
+
+.instructions {
+  width: 100%;
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  color: #ccc;
+  line-height: 1.75;
+}
+
+.instructions h2 {
+  font-size: 1rem;
+  margin-top: 2rem;
+  color: #fff;
+}
+
+.instructions p {
+  margin: 1rem 0;
+}
+
+.instructions code {
+  padding: 0.2rem 0.4rem;
+  font-size: 0.95rem;
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+  color: #e6e6e6;
+}
+
+.instructions pre {
+  background: #000000;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.instructions ol {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.instructions ol li {
+  margin-bottom: 0.75rem;
+}
