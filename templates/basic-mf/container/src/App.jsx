@@ -23,8 +23,8 @@ const App = () => {
 
       <div className="instructions">
         <p>
-          This project is scaffolded using <code>create-mf-kit</code> a CLI tool
-          for rapidly bootstrapping microfrontend apps using Webpack Module
+          This project is scaffolded using <code>create-mfe-kit</code> a CLI
+          tool for rapidly bootstrapping microfrontend apps using Webpack Module
           Federation.
         </p>
         <p>
@@ -42,7 +42,7 @@ const App = () => {
           <li>
             Open a terminal and run:
             <pre>
-              <code>npx create-mf-kit add *app name*</code>
+              <code>npx create-mfe-kit add *app name*</code>
             </pre>
           </li>
           <li>

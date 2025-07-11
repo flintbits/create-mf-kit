@@ -1,10 +1,12 @@
-# create-mf-kit (WIP)
+# create-mfe-kit (WIP)
+
 A CLI to scaffold Micro Frontend (MFE) architectures using Webpack Module Federation, React, and modern tooling.
 
 ---
 
 ## What is this?
-**`create-mf-kit`** is a developer-friendly CLI tool that sets up a plug-and-play Micro Frontend architecture in seconds.
+
+**`create-mfe-kit`** is a developer-friendly CLI tool that sets up a plug-and-play Micro Frontend architecture in seconds.
 
 Inspired by tools like `create-react-app` and `create-vite`, but built specifically for MFE use cases.
 
@@ -24,3 +26,4 @@ Inspired by tools like `create-react-app` and `create-vite`, but built specifica
 - Simple commands like:
   ```bash
   npm create mf-kit@latest
+  ```

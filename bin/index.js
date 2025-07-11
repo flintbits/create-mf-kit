@@ -25,7 +25,7 @@ if (args[0] === "add" && args[1]) {
 
 async function mfeScaffold() {
   try {
-    console.log(chalk.cyan("\n Welcome to create-mf-kit"));
+    console.log(chalk.cyan("\n Welcome to create-mfe-kit"));
 
     const { projectName } = await prompts({
       type: "text",

@@ -1,24 +1,33 @@
 {
-    "name": "create-mf-kit",
-    "version": "1.0.0",
-    "description": "CLI to scaffold Micro Frontend apps using Module Federation",
-    "bin": {
-        "create-mf-kit": "bin/index.js"
-    },
-    "keywords": [
-        "cli",
-        "mfe",
-        "microfrontend",
-        "webpack",
-        "module-federation"
-    ],
-    "author": "Prathvin Pinto",
-    "license": "MIT",
-    "type": "module",
-    "dependencies": {
-        "chalk": "^5.4.1",
-        "fs-extra": "^11.3.0",
-        "ora": "^8.2.0",
-        "prompts": "^2.4.2"
-    }
+  "name": "create-mfe-kit",
+  "version": "0.1.0",
+  "description": "CLI to scaffold Micro Frontend apps using Module Federation",
+  "bin": {
+    "create-mfe-kit": "bin/index.js"
+  },
+  "keywords": [
+    "cli",
+    "mfe",
+    "microfrontend",
+    "webpack",
+    "module-federation"
+  ],
+  "author": "Prathvin Pinto",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flintbits/create-mfe-kit"
+  },
+  "bugs": {
+    "url": "https://github.com/flintbits/create-mfe-kit/issues"
+  },
+  "homepage": "https://github.com/flintbits/create-mfe-kit#readme",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "fs-extra": "^11.3.0",
+    "ora": "^8.2.0",
+    "prompts": "^2.4.2"
+  }
 }
+
