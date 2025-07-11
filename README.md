@@ -1,4 +1,4 @@
-# create-mf-kit
+# create-mf-kit (WIP)
 A CLI to scaffold Micro Frontend (MFE) architectures using Webpack Module Federation, React, and modern tooling.
 
 ---
