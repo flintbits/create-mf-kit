@@ -4,7 +4,7 @@ A CLI to scaffold Micro Frontend (MFE) architectures using Webpack Module Federa
 ---
 
 ## What is this?
-**`create-mf-kit`** is a developer-friendly CLI tool that sets up a plug-and-play Micro Frontend architecture including host and remote apps in seconds.
+**`create-mf-kit`** is a developer-friendly CLI tool that sets up a plug-and-play Micro Frontend architecture in seconds.
 
 Inspired by tools like `create-react-app` and `create-vite`, but built specifically for MFE use cases.
 
