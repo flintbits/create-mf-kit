@@ -1,6 +1,6 @@
 {
   "name": "create-mfe-kit",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "CLI to scaffold Micro Frontend apps using Module Federation",
   "bin": {
     "create-mfe-kit": "bin/index.js"
