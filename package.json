@@ -3,7 +3,7 @@
   "version": "0.2.2",
   "description": "CLI to scaffold Micro Frontend apps using Module Federation",
   "bin": {
-    "create-mfe-kit": "bin/index.js"
+    "create-mfe-kit": "dist/index.js"
   },
   "keywords": [
     "cli",
@@ -22,20 +22,24 @@
     "url": "https://github.com/flintbits/create-mfe-kit/issues"
   },
   "homepage": "https://github.com/flintbits/create-mfe-kit#readme",
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
-    "chalk": "^5.4.1",
+    "chalk": "^4.1.2",
     "fs-extra": "^11.3.0",
-    "ora": "^8.2.0",
+    "ora": "^5.4.1",
     "prompts": "^2.4.2"
   },
   "files": [
-    "bin/index.js",
-    "templates/",
+    "templates",
+    "dist",
     "README.md",
     "LICENSE"
   ],
   "devDependencies": {
     "esbuild": "^0.25.6"
+  },
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "prepublishOnly": "npm run build"
   }
 }

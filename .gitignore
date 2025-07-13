@@ -10,6 +10,12 @@ dist/
 # VS Code
 .vscode/
 
+# Ignore source code and dev setup
+bin/
+lib/
+*.config.js
+index.js
+
 # OS
 .DS_Store
 Thumbs.db
