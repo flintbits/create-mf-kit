@@ -29,12 +29,13 @@
     "ora": "^8.2.0",
     "prompts": "^2.4.2"
   },
-   "files": [
+  "files": [
     "bin/index.js",
     "templates/",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "devDependencies": {
+    "esbuild": "^0.25.6"
+  }
 }
-
-

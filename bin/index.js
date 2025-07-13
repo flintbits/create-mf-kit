@@ -23,6 +23,17 @@ if (args[0] === "add" && args[1]) {
   mfeScaffold();
 }
 
+/**
+ * Scafolds a new MFE project.
+ *
+ * prompts the user for the project name and the state library,
+ * copies the selected template, and provides post setup instructions.
+ *
+ * @async
+ * @function
+ * @returns {Promise<void>}
+ *
+ */
 async function mfeScaffold() {
   try {
     console.log(chalk.cyan("\n Welcome to create-mfe-kit"));
@@ -78,6 +89,20 @@ async function mfeScaffold() {
   }
 }
 
+/**
+ * creates a new mfe app based on the template
+ *
+ * Prompts the port number, copies the template file, updates
+ * `package.json`,`webpack.config.js`, and modifies the container config
+ *
+ * @async
+ * @function
+ * @param {string} appName - The name of the remote app to create.
+ * @returns{Promise<void>}
+ *
+ * @example
+ * createNewRemoteApp("app2")
+ */
 async function createNewRemoteApp(appName) {
   const { appPort } = await prompts({
     type: "number",
@@ -138,6 +163,18 @@ async function createNewRemoteApp(appName) {
   }
 }
 
+/**
+ * updates the webpacks configuration to include the new remote
+ *
+ * @async
+ * @function
+ * @param {string} appName - The name of the remote app
+ * @param {number} appPort - The port number on which the remote app runs
+ * @returns {Promise<void>}
+ *
+ * @example
+ * updateContainerRemotes("app2",3002)
+ */
 async function updateContainerRemotes(appName, appPort) {
   try {
     let content = await fs.readFile(CONTAINER_WEBPACK_PATH, "utf-8");
