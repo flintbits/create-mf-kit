@@ -13,8 +13,7 @@ templates/
 # Transpiled source files (if used)
 lib/
 
-# Build logs
-.esbuild/
+# Build logss
 .eslintcache
 
 # OS and IDE
