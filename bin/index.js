@@ -174,3 +174,15 @@ async function updateContainerRemotes(appName, appPort) {
     );
   }
 }
+
+/*
+TODO
+Finish and document Zustand integration.
+Add unit tests.
+Replace fragile regex manipulation with an AST-based parser (e.g., recast, jscodeshift) to safely edit JS objects.
+rollback if part of the add process fails
+Use flags or prompts to select framework-specific templates at scaffold time.(--react, --angular, --vue)
+Add --force flag to overwrite existing folders or remotes with confirmation bypass.
+Improve README
+Add plugin support
+*/

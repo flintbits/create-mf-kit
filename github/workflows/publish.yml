@@ -23,10 +23,10 @@ jobs:
 
       - name: Bump version and push
         run: |
-          git config --global user.email "your-email@example.com"
-          git config --global user.name "your-username"
+          git config --global user.email "prathvinpinto01@gmail.com"
+          git config --global user.name "flintbits"
           npm version patch -m "chore(release): bump version to %s"
-          git push origin release
+          git push origin npm-publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 

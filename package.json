@@ -1,6 +1,6 @@
 {
   "name": "create-mfe-kit",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "CLI to scaffold Micro Frontend apps using Module Federation",
   "bin": {
     "create-mfe-kit": "bin/index.js"
@@ -28,6 +28,13 @@
     "fs-extra": "^11.3.0",
     "ora": "^8.2.0",
     "prompts": "^2.4.2"
-  }
+  },
+   "files": [
+    "bin/index.js",
+    "templates/",
+    "README.md",
+    "LICENSE"
+  ]
 }
+
 
