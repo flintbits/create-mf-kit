@@ -27,4 +27,4 @@ npx create-mfe-kit add *app name*
 # License
 
 This project is licensed under the [MIT License](./LICENSE).  
-© 2025 [Prathvin Pinto](https://github.com/prathvinpinto)
+© 2025 [Prathvin Pinto](https://github.com/flintbits)
