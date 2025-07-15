@@ -3,17 +3,9 @@ node_modules/
 npm-debug.log*
 .yarn/
 
-# Output
-dist/
-*.tgz
 
-# Templates (ignored from git but bundled into dist if needed)
-templates/
+# Build logs
 
-# Transpiled source files (if used)
-lib/
-
-# Build logss
 .eslintcache
 
 # OS and IDE
