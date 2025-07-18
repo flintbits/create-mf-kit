@@ -1,6 +1,5 @@
 import fs from "fs-extra";
 import { build } from "esbuild";
-// (async () => {})();
 
 await fs.remove("dist");
 
