@@ -24,6 +24,12 @@ npx create-mfe-kit add *app name*
 - Webpack Module Federation pre-configured.
 - Easily add new remote apps via CLI.
 
+# Work in Progress (WIP) Features
+
+- Multi-framework support (React, Vue, Angular, etc.).
+- Auto-routing setup for newly added MFEs.
+- Optional TypeScript support.
+
 # License
 
 This project is licensed under the [MIT License](./LICENSE).  
